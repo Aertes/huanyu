@@ -1,0 +1,16 @@
+function QQ(){ 
+
+var onlineConsult = $.i18n.prop("qq_onlines_top");
+var hotline = $.i18n.prop("customerCall");
+var Div=document.createElement('div'); 
+Div.id='qq_online'; Div.style.position='absolute'; 
+Div.style.top='200px'; var Html=''; Div.style.right='0px'; Div.className='qq_onlines_6';
+ Html+='<div id="qq_onlines_top">'+onlineConsult+'<p class="qq_onlines_small_right" onclick="QQ_Close();"><strong>線上客服</strong></p></div>'; 
+Html+='<div id="qq_onlines_box">';
+	 Html+='<p id="qq_onlines_tel">'+hotline+'<strong>400-101-0589</strong></p>'; 
+	 Html+='<p id="qq_onlines_list">'; 
+	Html+='<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=3180985540&site=qq&menu=yes"><img src="/images/qq.png"><span class="i18n" i18nCode="customerService">客服</span></a>';
+	 Html+='</p>';
+	 Html+='<p id="qq_onlines_tdc"><img src="/uploadfiles/20161104-163112.png" /></p>';
+	  Html+='</div>'; 
+Div.innerHTML=Html; document.body.appendChild(Div); FloatDiv('qq_online',200); } if (document.all){ window.attachEvent('onload',QQ) }else{ window.addEventListener('load',QQ,false); }function QQ_Close(){ if($('#qq_online').css('right')=='-130px'){ $('#qq_online').animate({right:'0px'},300); } else { $('#qq_online').animate({right:'-130px'},300); } }

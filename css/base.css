@@ -1,0 +1,127 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body,
+div,
+address,
+blockquote,
+iframe,
+ul,
+ol,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+caption,
+form,
+legend,
+fieldset,
+input,
+button,
+select,
+textarea {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "宋体", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a img,
+img {
+    border: 0px;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+}
+
+.clear {
+    clear: both;
+    height: 1px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.textleft {
+    text-align: left;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.textright {
+    text-align: right;
+}
+
+.mt_5 {
+    margin-top: 5px;
+}
+
+.mt_10 {
+    margin-top: 10px;
+}
+
+.mt_15 {
+    margin-top: 15px;
+}
+
+.mt_20 {
+    margin-top: 20px;
+}
+
+.mt_25 {
+    margin-top: 25px;
+}
+
+.mt_30 {
+    margin-top: 30px;
+}
+
+.gots {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.active {
+    color: red;
+    cursor: pointer;
+}

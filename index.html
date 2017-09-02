@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>环宇期货 环宇国际 外汇资管 期货资管 资产管理 1年以上连续交易记录 资管网站 外汇 黄金 期货 资金曲线 风险控制 香港环宇国际集团有限公司</title>
+    <meta name="keywords" content="环宇期货  环宇国际 外汇资管 期货资管  资产管理 1年以上连续交易记录  资管网站 外汇 黄金 期货 资金曲线 风险控制 香港环宇国际集团有限公司" />
+    <meta name="description" content="香港环宇国际集团有限公司" />
+    <link rel="stylesheet" href="css/style_cn.css" type="text/css" />
+    <style>
+        .news_list {
+            width: 100%;
+            margin: 30px auto;
+            text-align: center;
+        }
+        
+        .news_list ul {
+            width: 1165px;
+            text-align: center;
+            list-style-type: none;
+        }
+        
+        .news_list ul li {
+            width: 30%;
+            float: left;
+            display: inline;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        
+        .news_list ul li:hover {
+            box-shadow: 0px 2px 10px 5px #b4b4b4;
+            transition: all .3s ease-in-out;
+            cursor: pointer;
+            
+        }
+        .news_sub_content h3{
+            color: #d50100;
+        }
+        .news_sub_content p{
+            text-align: left;
+            text-indent: 2em;
+        }
+        .news_sub_image img {
+            width: 330px;
+            height: 250px;
+        }
+    </style>
+    <script type="text/javascript" src="jquery/jquery-fy.js"></script>
+
+    <script type="text/javascript" src="jquery/i18n/jquery.i18n.properties-1.0.9.js"></script>
+    <script type="text/javascript" src="jquery/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="inc/function.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <div id="header_blk">
+            <div id="header">
+                <a href="index.html"><img src="images/logo.jpg" id="logo" alt="环宇期货  环宇国际 外汇资管 期货资管  资产管理 1年以上连续交易记录  资管网站 外汇 黄金 期货 资金曲线 风险控制 香港环宇国际集团有限公司" /></a>
+                <div style="padding-left:800px;padding-top:25px;">
+                    <span class="langSet" style="cursor: pointer;" data-type="zh">中文繁体</span>|
+                    <span class="langSet" style="cursor: pointer;" data-type="en">English</span>
+                </div>
+                <div id="search">
+                    <input type="text" id="search_key" class="i18n" i18nCode="searchKey" value="搜索" maxlength="30" onkeyup="CheckSearch2(event,'cn')" onfocus="if(this.value=='搜索')this.value='';" />
+                    <span id="search_button" onclick="CheckSearch('cn')"></span>
+                </div>
+                <p id="header_tel"><span class="i18n" i18nCode="customerCall">服务热线</span>：<strong>400-101-0589</strong></p>
+                <ul id="nav">
+                    <li>
+                        <a href="index.html" class="nav_out"><span class="i18n" i18nCode="homeNav">首 页</span><img src="images/nav_1.png" class="nav_icon" /><img src="images/nav_1_cur.png" class="nav_icon_cur" /></a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html" class="nav_out"><span class="i18n" i18nCode="aboutNav">关于我们</span><img src="images/nav_2.png" class="nav_icon" /><img src="images/nav_2_cur.png" class="nav_icon_cur" /></a>
+                    </li>
+                    <li>
+                        <a href="products.html" class="nav_out"><span class="i18n" i18nCode="productNav">产品介绍</span><img src="images/nav_3.png" class="nav_icon" /><img src="images/nav_3_cur.png" class="nav_icon_cur" /></a>
+                        <p>
+                            <!--<a href="products/1.html"><span class="i18n" i18nCode="amountLine">资金曲线</span></a>-->
+                            <a href="products/2.html"><span class="i18n" i18nCode="productMain">产品要素</span></a>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="download.html" class="nav_out"><span class="i18n" i18nCode="downloadNav">软件下载</span><img src="images/nav_6.png" class="nav_icon" /><img src="images/nav_6_cur.png" class="nav_icon_cur" /></a>
+                    </li>
+                    <li>
+                        <a href="cooperation.html" class="nav_out"><span class="i18n" i18nCode="cooperationNav">合作加盟</span><img src="images/nav_4.png" class="nav_icon" /><img src="images/nav_4_cur.png" class="nav_icon_cur" /></a>
+                        <p>
+                            <a href="cooperation.html"><span class="i18n" i18nCode="riskControl">风险控制</span></a>
+                            <a href="cooperation/1.html"><span class="i18n" i18nCode="cooperation">合作加盟</span></a>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="nav_out"><span class="i18n" i18nCode="contactNav">联系我们</span><img src="images/nav_5.png" class="nav_icon" /><img src="images/nav_5_cur.png" class="nav_icon_cur" /></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(function() {
+                try {
+                    var current = 0;
+                    $(".nav_out,.nav_over").attr("class", "nav_out").eq(current).attr("class", "nav_over");
+                } catch (e) {}
+                $("#nav li").hover(function() {
+                    $(this).find("p").slideToggle(300);
+                }, function() {
+                    $(this).find("p").hide();
+                });
+            });
+        </script>
+        <div id="banner_blk">
+            <ul id="banner">
+                <li><img src="uploadfiles/20161101-141920.jpg" /></li>
+                <li><img src="uploadfiles/20161103-150830.jpg" /></li>
+                <li>
+                    <a href="cooperation.html" target="_blank"><img src="uploadfiles/20161227-144625.jpg" /></a>
+                </li>
+                <li><img src="uploadfiles/20161101-115657.jpg" /></li>
+
+            </ul>
+            <p id="banner_button"></p>
+        </div>
+        <script type="text/javascript" src="jquery/jquery.cycle.all.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $('#banner').cycle({
+                    fx: 'fade',
+                    pager: '#banner_button'
+                });
+            });
+        </script>
+        <div class="news">
+            <p class="ititle news_title"></p>
+            <div class="news_list">
+
+                <ul>
+                    <li>
+                        <div class="news_sub_image"><img src="images/news/title1.jpg"></div>
+                        <div class="news_sub_content">
+                            <h3>加拿大央行维持基准利率不变</h3>
+                            <p>4月13日通讯：加拿大银行行长史蒂芬波洛兹当天在新闻发布会上表示，最近几个季度加拿大经济增长好于预期但并不均衡，目前判断经济已走上可持续增长之路还为时过</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news_sub_image"><img src="images/news/title2.jpg"></div>
+                        <div class="news_sub_content">
+                            <h3>黑田东彦认为 日央行可以平稳结束量宽</h3>
+                            <p>4月13日通讯：日央行有能力平稳地结束当前的量化宽松政策，包括降低资产负债表规模。当该央行决定结束量宽政策时，可能采取的备选方案之一将是上调超额准备金利率。他同</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news_sub_image"><img src="images/news/title3.jpg"></div>
+                        <div class="news_sub_content">
+                            <h3>今日股市大盘行情分析 沪指放量收跌不利后</h3>
+                            <p>4月13日通讯：全天保持震荡运行的状态，以上证50、中证100为代表的权重个股在盘中多次发起上攻，无奈市场不跟，午后虽然雄安概念再次表现强势，盘中热点稍显杂乱，粤港</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <br />
+            <div class="news_list">
+                <ul>
+                    <li>
+                        <div class="news_sub_image"><img src="images/news/title4.jpg"></div>
+                        <div class="news_sub_content">
+                            <h3>雄安概念与粤港澳双热点 市场情绪不利指</h3>
+                            <p>4月13日通讯：昨日，大盘现深V行情，今日指数没能延续昨日的强势，全天保持震荡运行的状态。以上证50、中证100为代表的权重个股在盘中多次发起上攻，无奈市场跟不上。午</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news_sub_image"><img src="images/news/title5.jpg"></div>
+                        <div class="news_sub_content">
+                            <h3>特朗普讲话强力助攻 国际黄金有望走新高</h3>
+                            <p>4月13日通讯：本已陷入低迷的美元遭到“当头棒喝”，特朗普讲话期间，国际黄金则升破1280美元/盎司关口，今日金价现报1286.96美元。“我喜欢低利率政策</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news_sub_image"><img src="images/news/title6.jpg"></div>
+                        <div class="news_sub_content">
+                            <h3>黄金期货冲高受阻 金价回落低位震荡</h3>
+                            <p>4月13日通讯：特朗普一番言论，再次挑起事端，黄金期货避险走低。今日黄金下落1274震荡，回落低位为主。周三(4月12日)亚盘初黄金价格延续隔夜的多头情绪，价格上行测试</p>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div id="iabout_box">
+            <p class="ititle iabout_title"></p>
+            <h1 id="iabout_name" class="i18n" i18nCode="companyName">香港环宇期货有限公司<br /><span>Hongkong Huanyu Futures Co., Ltd.</span></h1>
+            <div id="iabout" class="i18n" i18nCode="iabout">
+                <p>香港环宇期货有限公司成立于2017年5月，是香港环宇期货集团下属公司， 环宇期货拥有国内一流的信息技术设施，同时提供全面的行情资讯系统，建立了科学的现代金融企业经营管理机制和完善的内部控制制度，引进大批业内精英，从高级管理人员到一般员工都具有丰富的从业经验、专业的投资知识与技能以及良好的职业操守，全方位为投资者提供个性化、专业化服务。环宇期货倡导沟通与交流，以求最大限度地满足投资者的需求，努力实现客户资产的保值增值，追求公司与客户的双赢，追求客户、员工、股东价值的共同提升。
+                </p>
+                <p>&nbsp;</p>
+            </div>
+            <p id="iabout_image_bg"></p><img id="iabout_image" src="uploadfiles/20161030-193903.jpg" />
+            <a href="aboutus.html" id="iabout_more" style="color:#fff;">MORE</a>
+        </div>
+
+        <div id="ipartner_box">
+            <p id="ipartner_title"><span class="ipartner_button" id="ipartner_button_left"></span><span class="ipartner_button" id="ipartner_button_right"></span></p>
+            <div id="ipartner">
+                <p><img src="uploadfiles/jxqh.png" title="" alt="" /></p>
+                <p><img src="uploadfiles/jxqh.png" title="" alt="" /></p>
+                <p>
+                    <a href="http://www.baidu.com/" target="_blank"><img src="uploadfiles/20161030-193728.jpg" title="" alt="" /></a>
+                </p>
+                <p>
+                    <a href="http://www.baidu.com/" target="_blank"><img src="uploadfiles/20161030-193731.jpg" title="" alt="" /></a>
+                </p>
+
+                <p><img src="uploadfiles/20161030-193740.jpg" title="" alt="" /></p>
+            </div>
+        </div>
+        <div id="footer_blk">
+            <div id="footer">
+                <div id="footer_warning">
+                    <p id="footer_warning_title" class="i18n" i18nCode="footer_warning_title"></p>
+                    <p class="i18n" i18nCode="footer_warning_content"></p>
+                </div>
+                <div id="footer_content">
+                    <p class="i18n" i18nCode="copyright"></p>
+                    <script>
+                        var _hmt = _hmt || [];
+                        (function() {
+                            var hm = document.createElement("script");
+                            hm.src = "https://hm.baidu.com/hm.js?aeaab89fb9ea5761ca76aa15f8cf7348";
+                            var s = document.getElementsByTagName("script")[0];
+                            s.parentNode.insertBefore(hm, s);
+                        })();
+                    </script>
+                    <p id="footer_as">
+                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=3180985540&site=qq&menu=yes"><img src="images/footer_qq.png" /></a><span></span>
+                        <img src="images/footer_weixin.png" onmouseover="$('#footer_tdc').show();" onmouseout="$('#footer_tdc').hide();" /></p>
+                </div><img src="uploadfiles/20161104-163112.png" id="footer_tdc" />
+                <p style="display:none;"><img src="images/loading2.gif" /></p>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="inc/scrollpic.js"></script>
+    <script type="text/javascript">
+        var ScrollImage = new ScrollPic();
+        ScrollImage.scrollContId = "ipartner";
+        ScrollImage.arrLeftId = "ipartner_button_left";
+        ScrollImage.arrRightId = "ipartner_button_right";
+        ScrollImage.frameWidth = 1200;
+        ScrollImage.pageWidth = 1220;
+        ScrollImage.upright = false;
+        ScrollImage.speed = 8;
+        ScrollImage.space = 20;
+        ScrollImage.autoPlay = true;
+        ScrollImage.autoPlayTime = 6;
+        ScrollImage.circularly = true;
+        ScrollImage.initialize();
+    </script>
+    <script type="text/javascript" src="qq.html"></script>
+</body>
+
+</html>

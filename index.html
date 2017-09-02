@@ -18,10 +18,11 @@
             width: 1165px;
             text-align: center;
             list-style-type: none;
+            margin: auto;
         }
         
         .news_list ul li {
-            width: 30%;
+            width: 33.33%;
             float: left;
             display: inline;
             overflow: hidden;
@@ -35,6 +36,10 @@
             transition: all .3s ease-in-out;
             cursor: pointer;
             
+        }
+        .news_sub_content{
+            padding: 0 20px;
+            box-sizing: border-box;
         }
         .news_sub_content h3{
             color: #d50100;
@@ -137,7 +142,7 @@
             <p class="ititle news_title"></p>
             <div class="news_list">
 
-                <ul>
+                <ul class="clearfix">
                     <li>
                         <div class="news_sub_image"><img src="images/news/title1.jpg"></div>
                         <div class="news_sub_content">
@@ -163,7 +168,7 @@
             </div>
             <br />
             <div class="news_list">
-                <ul>
+                <ul class="clearfix">
                     <li>
                         <div class="news_sub_image"><img src="images/news/title4.jpg"></div>
                         <div class="news_sub_content">
